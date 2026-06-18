@@ -8,16 +8,19 @@
 
     --text-primary: #1E293B;
     --text-secondary: #64748B;
+
+    --border-color: #E2E8F0;
+    --shadow-color: rgba(0, 0, 0, 0.1);
 }
 
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 0;
+    width: 100%;
 }
 
 input,
-select,
 button {
     padding: 10px;
     margin: 10px;
@@ -28,10 +31,25 @@ button {
 }
 
 .navbar{
+    top: 0;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
-
     background-color: green;
+}
+
+.navbar, p{
+    color: white;
+}
+
+.converter{
+    justify-content: center;
+    border-width: 2px;
+    background-color: white;
+    border-color: green;
+    border-radius: 10px;
 }
