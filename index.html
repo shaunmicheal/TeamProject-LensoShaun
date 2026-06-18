@@ -7,23 +7,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <div class="navbar">
-   <h1>Temperature Converter</h1>
-   </div>
+<div class="navbar">
+     <h1>Temperature Converter</h1>
+</div>
    
-   <div class ="converter">
+<div class ="converter">
    <input type="number" id="inputValue" placeholder="Enter temperature">
    
-   </div>
+   <select id="conversionType">
+       <option value="cTOf">Celsius to Fahrenheit</option>
+       <option value="fTOf">Fahrenheit to Celsius</option>
+   </select>
+      <p id="result"></p>
+</div>
    
-   <div>
+<div class="button-container">
        <button onclick="convertTemperature()">Convert</button>
-   </div>
+</div>
    
-   <footer>
-   
+    <footer>
        <p>&copy; 2026 Temperature Converter. All rights reserved. LensoShaun </p>
-       
-   </footer>
+    </footer>
 </body>
 </html>
