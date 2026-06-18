@@ -14,3 +14,12 @@ button {
 button {
     cursor: pointer;
 }
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+
+    background-color: green;
+}
