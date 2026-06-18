@@ -1,3 +1,15 @@
+:root{
+    --primary: #2563EB;      
+    --primary-dark: #1D4ED8;
+    --secondary: #F97316;    
+
+    --bg-color: #F8FAFC;
+    --card-bg: #FFFFFF;
+
+    --text-primary: #1E293B;
+    --text-secondary: #64748B;
+}
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
