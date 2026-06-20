@@ -17,7 +17,7 @@ A simple web-based temperature converter built using HTML, CSS, and JavaScript. 
 - JavaScript
 
 ## Project Structure
-project-folder/
+TeamProject-LensoShaun/
 │
 ├── index.html
 ├── style.css
@@ -30,4 +30,4 @@ project-folder/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/temperature-converter.git
+https://github.com/shaunmicheal/TeamProject-LensoShaun.git
